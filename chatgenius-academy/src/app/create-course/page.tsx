@@ -62,8 +62,8 @@ export default function CreateCoursePage() {
                             : 'border-2 border-gray-300 text-gray-500'
                         }`}>
                           {currentStep > step.id ? (
-                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                            <svg className="w-6 h-6\" fill="none\" stroke="currentColor\" viewBox="0 0 24 24">
+                              <path strokeLinecap="round\" strokeLinejoin="round\" strokeWidth={2} d="M5 13l4 4L19 7" />
                             </svg>
                           ) : (
                             <span className="text-sm font-medium">{step.id}</span>
@@ -86,7 +86,7 @@ export default function CreateCoursePage() {
                 {currentStep === 1 && (
                   <>
                     <div>
-                      <label htmlFor="title" className="block text-sm font-medium text-gray-700">
+                      <label htmlFor="title\" className="block text-sm font-medium text-gray-700">
                         Course Title
                       </label>
                       <input
